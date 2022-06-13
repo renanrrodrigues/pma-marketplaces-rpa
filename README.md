@@ -24,8 +24,8 @@
 - ✅ save csv ou json
 - ✅ gerar um relatório em excel
 
-```json
-
+## Json
+```JSON
 {
     'title': "Smart Tv 42'' Led Fhd Ptv42g52 Com Roku Dolby Áudio Philco", 
     'price': 'R$ 1899', 
@@ -34,9 +34,7 @@
     'sellername': 'MERCADOLIVRE+ELETRONICOS', 
     'sellerlink': 'http://perfil.mercadolivre.com.br/MERCADOLIVRE+ELETRONICOS'
 }
-
 ```
-
 
 ✅ concluído
 ❌ não concluído
