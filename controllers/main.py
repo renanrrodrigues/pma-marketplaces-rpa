@@ -75,9 +75,8 @@ def result_json(textSearch):
                     print('')
                 print(f'real get itens --> {len(data_array)}\n')
                 #print(f'{data_array[0]["price"]}\n')
-                #print(f'{data_array[0]}\n')
+                print(f'{data_array[0]}\n')
                 print(f'{type(data_array)}\n')
-                
             except Exception as e: print(e)
         else:
             print(result)

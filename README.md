@@ -24,5 +24,12 @@
 - ✅ save csv ou json
 - ✅ gerar um relatório em excel
 
+```json
+
+{'title': "Smart Tv 42'' Led Fhd Ptv42g52 Com Roku Dolby Áudio Philco", 'price': 'R$ 1899', 'thumbnail': 'http://http2.mlstatic.com/D_716662-MLB46652836450_072021-I.jpg', 'productlink': 'https://produto.mercadolivre.com.br/MLB-1836205903-smart-tv-42-led-fhd-ptv42g52-com-roku-dolby-audio-philco-_JM', 'sellername': 'MERCADOLIVRE+ELETRONICOS', 'sellerlink': 'http://perfil.mercadolivre.com.br/MERCADOLIVRE+ELETRONICOS'}
+
+```
+
+
 ✅ concluído
 ❌ não concluído
