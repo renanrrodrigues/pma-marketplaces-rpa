@@ -6,7 +6,6 @@
 ## lib
 - [requests](https://pypi.org/project/requests/) - 2.28.0
 - [json](https://pypi.org/project/jsonlib/) - 1.6.1
-- [pandas](https://pypi.org/project/pandas/) - 1.4.2
 - [openpyxl](https://pypi.org/project/openpyxl/) - 3.0.10
 
 
