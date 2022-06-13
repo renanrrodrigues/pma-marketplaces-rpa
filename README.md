@@ -1,0 +1,28 @@
+## projeto estudo 📚   scraping API mercado livre 
+##
+## Relatório Preço Mínimo Anunciado (PMA)
+## author ⛏  https://github.com/renanrrodrigues
+
+## lib
+- [requests](https://pypi.org/project/requests/) - 2.28.0
+- [json](https://pypi.org/project/jsonlib/) - 1.6.1
+- [pandas](https://pypi.org/project/pandas/) - 1.4.2
+- [openpyxl](https://pypi.org/project/openpyxl/) - 3.0.10
+
+
+## Features
+- ⚠️ offset limit de 1000 com acesso sem token
+- ⚠️ a API tem limit de 50 resultados por requisição
+- ✅ percorrer todas as 20 paginas 20*50 = 1000
+- ✅ montar um array ou dec com os seguintes itens
+- ✅ titulo do produto
+- ✅ preço
+- ✅ foto da capa
+- ✅ link do produto
+- ✅ nome do vendedor
+- ✅ url do vendedor
+- ✅ save csv ou json
+- ✅ gerar um relatório em excel
+
+✅ concluído
+❌ não concluído
