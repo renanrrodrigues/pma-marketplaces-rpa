@@ -12,7 +12,7 @@
 ## Features
 - ❌ add async em funções I/O 28-06-202
 - ⚠️ offset limit de 1000 acesso sem token
-- ⚠️ a API tem limit de 50 resultados por requisição
+- ⚠️ API tem limit de 50 resultados por requisição
 - ✅ percorrer todas as 20 paginas 20*50 = 1000
 - ✅ montar um array ou dec com os seguintes itens
 - ✅ titulo do produto
