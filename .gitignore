@@ -1,0 +1,14 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+/data.json
+/mvc.py
+/test
+/.vscode
+/vscode
+/pma.db
+/.git
+/.env
+/.venv
