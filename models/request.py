@@ -1,6 +1,7 @@
 import requests
 
 class RequestsApi(object):
+    
     # function resultado da requisição
     def result(textSearch,limit=0):
         # ex: --> 'tv 42 polegadas'.replace(' ','+')

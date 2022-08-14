@@ -37,6 +37,7 @@ O máximo permitido sem access_token é 1000
 
 data_array = []
 
+# formata resultado de acordo com a nossa necessidade 
 def format_data(data):
     l = len(data['results'])
     for i in range(0,len(data['results'])):
@@ -47,9 +48,10 @@ def format_data(data):
         'sellername': f"{data['results'][i]['seller']['permalink']}".split('.com.br/',1)[1],
         'sellerlink': data['results'][i]['seller']['permalink']})
 
-
+# percorre a requisição e trata o valor recebido da api do mercado livre 
 def result_json(textSearch):
     try:
+        # método que faz a requisição da api
         result = RequestsApi.result(textSearch)
         
         if type(result) is dict:
@@ -63,10 +65,12 @@ def result_json(textSearch):
                 
                 page_offset = 0
                 
+                # percorre a paginação da api 50 em 50 até 1000
                 for i in range(0,pages+1):
                     
                     result = RequestsApi.result(textSearch,page_offset)
                     
+                    # formata o resultado que recebemos da api
                     format_data(result)
                     
                     page_offset +=50
@@ -82,6 +86,7 @@ def result_json(textSearch):
             print(result)
     except Exception as e: print(e)
 
+# exporta os dados tratados
 def export_array():
     return data_array
 

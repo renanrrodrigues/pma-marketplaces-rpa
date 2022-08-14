@@ -1,5 +1,5 @@
 from fileinput import close
-from controllers.main import *
+from controllers.main import result_json,export_array
 from openpyxl import Workbook
 import json
 
@@ -7,10 +7,11 @@ keys = []
 wb = Workbook()
 ws = wb.active
 
-
+# usuário busca produto por nome ou descrição
 textSearch = input('Digite sua busca!: ')
 print('') 
 
+# chama o método result_json do controllers
 result_json(textSearch)
 
 data = export_array()
