@@ -1,4 +1,4 @@
-## projeto estudo 📚   scraping API mercado livre 
+## projeto estudo 📚 API mercado livre 
 ##
 ## Relatório Preço Mínimo Anunciado (PMA)
 ## author ⛏  https://github.com/renanrrodrigues
