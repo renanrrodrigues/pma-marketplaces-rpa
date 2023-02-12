@@ -14,12 +14,12 @@
 - ⚠️ a API tem limit de 50 resultados por requisição
 - ✅ percorrer todas as 20 paginas 20*50 = 1000
 - ✅ montar um array ou dict com os seguintes itens
-- ✅ titulo do produto
-- ✅ preço
-- ✅ foto da capa
-- ✅ link do produto
-- ✅ nome do vendedor
-- ✅ url do vendedor
+    - ✅ titulo do produto
+    - ✅ preço
+    - ✅ foto da capa
+    - ✅ link do produto
+    - ✅ nome do vendedor
+    - ✅ url do vendedor
 - ✅ save csv ou json
 - ✅ gerar um relatório em excel
 
